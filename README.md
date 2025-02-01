@@ -176,3 +176,6 @@ curl -G 'http://localhost:8428/api/v1/query' --data-urlencode 'query=OILCOINT_me
 * Нажимаем run 
 ![image](https://github.com/user-attachments/assets/49d9f76a-a545-485d-b191-ae67ebf6ddc3)
 * Должно получится вот так
+
+
+![image](https://raw.githubusercontent.com/leposkaeee/Docker/refs/heads/main/Screenshot_Prometheus.png)

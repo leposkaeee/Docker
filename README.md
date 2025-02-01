@@ -178,4 +178,7 @@ curl -G 'http://localhost:8428/api/v1/query' --data-urlencode 'query=OILCOINT_me
 * Должно получится вот так
 
 
+
+
+d
 ![image](https://raw.githubusercontent.com/leposkaeee/Docker/refs/heads/main/Screenshot_Prometheus.png)

@@ -117,7 +117,7 @@
 • /mnt/common_volume/swarm/grafana/config/prometheus.yaml - исправить targets: на exporter:9100,
 
 ![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_node_two.jpg?raw=true)
-![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot1.png?raw=true)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot2.png?raw=true)
 
 ## Grafana
 
@@ -140,7 +140,7 @@
     * Find and import dashboards for common applications at grafana.com/dashboards: 1860 //ждем кнопку Load
     * Select Prometheus ждем кнопку "Import"
 
-![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot2.png?raw=true)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot3.png?raw=true)
 
 ## VictoriaMetrics
 
@@ -154,11 +154,11 @@
 
 • команда sudo открывает файл docker-compose.yaml в редакторе vi с правами суперпользователя.
 
-![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot3.png?raw=true)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot4.png?raw=true)
 
 В самом текстовом редакторе после prometheus вставляем
 
-![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot4.png?raw=true)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot5.png?raw=true)
 
 Захом в connection
 там где мы писали http//:prometheus:9090 пишем http:victoriametrics:9090 И заменяем имя из "Prometheus-2" в "Vika"
@@ -184,10 +184,10 @@
 
 Нажимаем run
 
-![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot5.png?raw=true)
-
 ![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot6.png?raw=true)
+
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot7.png?raw=true)
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
 
-![image](https://github.com/user-attachments/assets/739a9d3f-163b-40df-bc74-f5b76613a5f5)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot8.png?raw=true)

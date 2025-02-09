@@ -42,7 +42,7 @@
 
 • Теперь скачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог /usr/bin
 
-![image](https://github.com/user-attachments/assets/6f4a7ffc-ff0c-4155-a082-07d7d0efc5e5)
+![image](https://raw.githubusercontent.com/leposkaeee/Docker/refs/heads/main/Screenshot%20_catalog.png)
 
 8. `sudo chmod +x /usr/bin/docker-compose`
 

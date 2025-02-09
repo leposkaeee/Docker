@@ -22,7 +22,7 @@
 3. `sudo yum install docker-ce docker-ce-cli containerd.io`
 
 • Устанавливаем docker
-![image](https://github.com/user-attachments/assets/ffdd913c-33d2-4489-a59c-581928dbc968)
+![image](https://raw.githubusercontent.com/leposkaeee/Docker/refs/heads/main/Screenshot_docker.png)
 
 4. `sudo systemctl enable docker --now`
 

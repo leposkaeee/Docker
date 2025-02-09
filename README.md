@@ -52,14 +52,14 @@
 
 • Проверка установленной версии Docker Compose.
 
-![image](https://github.com/user-attachments/assets/5a7024a8-b070-489c-a21b-1799118f110a)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_version.jpg?raw=true))
 
 • Можно скачать git прямо из командной строки прописав Y
 
 10. `git clone https://github.com/skl256/grafana_stack_for_docker.git`
 
 • выдаст ошибку и предложит скачать git, согласиться и продолжить
-![image](https://github.com/user-attachments/assets/b469b556-d8b7-467c-a1d9-125487dcafd8)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_error.jpg?raw=true)
 
 11. `cd grafana_stack_for_docker`
     
@@ -92,9 +92,9 @@
 18.` sudo docker compose up -d`
 
 • команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yml, с правами суперпользователя.
-![image](https://github.com/user-attachments/assets/a58b0533-185d-49d2-b5ae-f48ce5ec261f)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_rules.jpg?raw=true)
 
-![image](https://github.com/user-attachments/assets/929f2f13-f8e2-4a24-8bef-a423f785b144)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_rules_two.jpg?raw=true)
 
 19.` sudo vi docker-compose.yaml`
 
@@ -106,9 +106,9 @@
 
 • Что бы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services
 
-![image](https://github.com/user-attachments/assets/3b7cdd9c-0a33-4d84-ae8d-d56f99fa35ac)  
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_node.jpg?raw=true)  
 
-![image](https://github.com/user-attachments/assets/c2c56867-dfd8-4cd8-aeec-fc2332f54861)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot1.png?raw=true)
 
 20. `sudo vi prometheus.yaml `
 
@@ -116,8 +116,8 @@
 
 • /mnt/common_volume/swarm/grafana/config/prometheus.yaml - исправить targets: на exporter:9100,
 
-![image](https://github.com/user-attachments/assets/92943bf8-6331-4269-a1d2-f3dc44080577)
-![image](https://github.com/user-attachments/assets/61c52dfe-6091-40d1-a314-80d7bca39245)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot_node_two.jpg?raw=true)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot1.png?raw=true)
 
 ## Grafana
 
@@ -140,7 +140,7 @@
     * Find and import dashboards for common applications at grafana.com/dashboards: 1860 //ждем кнопку Load
     * Select Prometheus ждем кнопку "Import"
 
-![image](https://github.com/user-attachments/assets/68774952-a375-4e77-8b1e-a61d1210d443)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot2.png?raw=true)
 
 ## VictoriaMetrics
 
@@ -154,11 +154,11 @@
 
 • команда sudo открывает файл docker-compose.yaml в редакторе vi с правами суперпользователя.
 
-![image](https://github.com/user-attachments/assets/1a957374-26c9-4b6f-96c1-0741d8d1b745)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot3.png?raw=true)
 
 В самом текстовом редакторе после prometheus вставляем
 
-![image](https://github.com/user-attachments/assets/b25ebd84-0173-4e2c-9fe5-c94b7c290a37)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot4.png?raw=true)
 
 Захом в connection
 там где мы писали http//:prometheus:9090 пишем http:victoriametrics:9090 И заменяем имя из "Prometheus-2" в "Vika"
@@ -184,9 +184,9 @@
 
 Нажимаем run
 
-![image](https://github.com/user-attachments/assets/e6d1a7a9-3bc7-43da-a19c-c3304a535cb6)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot5.png?raw=true)
 
-![image](https://github.com/user-attachments/assets/b1fc3cd1-9abf-451d-9779-60872a566a98)
+![image](https://github.com/leposkaeee/Docker/blob/main/Screenshot6.png?raw=true)
 
 Копируем переменную OILCOINT_metric1 и вставляем в code
 
